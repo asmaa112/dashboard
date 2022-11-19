@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'bootstrap-icons';
+    src: url('../fonts/bootstrap-icons.woff') , url('../fonts/bootstrap-icons.woff2');
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    background-color: #064372;
+    width: 300px;
+    height: 100vh;
+    position: fixed;
+    overflow-y: auto;
+}
+.sidebar::-webkit-scrollbar{
+width: 8px;
+
+}
+.sidebar::-webkit-scrollbar-thumb{
+    background-color: #0880B4;
+    border-radius: 7px;
+}
+img{
+    border-radius: 50%;
+}
+.hautsidebar{
+    text-align: center;
+}
+.hautsidebar h3{
+    color: white;
+}
+.hautsidebar a{
+    color: aqua;
+}
+.menusidebar ul li a{
+    color: white;
+    text-decoration: none;
+    margin-left: 30px
+}
+.menusidebar ul li{
+    border-bottom: #065191 solid 3px;
+    padding: 20px;
+    text-decoration: none;
+   
+}
+.menusidebar ul li:hover{
+background-color: #0880B4;
+}
+.menusidebar ul{
+    margin-top: 30px;
+}
+span{
+    margin-left: 5px;
+}
